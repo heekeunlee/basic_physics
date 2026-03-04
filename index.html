@@ -43,16 +43,29 @@
 
         <section id="definition" class="content-section">
             <div class="container">
-                <h2 class="reveal">1. 정의 (Scientific Definition)</h2>
+                <h2 class="reveal">1. 정의 (The Core Definition: Energy Transformation)</h2>
                 <div class="glass-card reveal">
-                    <p><strong>플레밍의 오른손 법칙(Fleming's right-hand rule)</strong>은 전자기 유도 현상이 일어날 때 발생하는 '유도 기전력'과 그에 따른
-                        '유도 전류'의 방향을 결정하는 핵심적인 물리 법칙입니다.</p>
-                    <p>19세기 말, 영국의 전기공학자이자 물리학자인 존 앰브로즈 플레밍(John Ambrose Fleming)은 복잡한 벡터 계산 없이 누구나 손쉽게 전자기 현상의 방향성을 예측할
-                        수 있도록 이 직관적인 '손가락 규칙'을 고안해냈습니다.</p>
+                    <p><strong>플레밍의 오른손 법칙(Fleming's Right-Hand Rule)</strong>은 단순히 손가락의 방향을 맞추는 놀이가 아닙니다. 이는 현대 문명의 근간인
+                        '발전기(Generator)'의 가장 기초적인 물리적 설계도입니다. 자기장이라는 보이지 않는 에너지가 흐르는 공간에서, 인간이 기계적 힘을 가해 도체를 움직였을 때, 그
+                        결과물로 '전기(Electric Current)'가 어떻게 발생하는지를 정의하는 법칙입니다.</p>
+
+                    <div class="deep-dive">
+                        <h4>역사적 배경과 철학</h4>
+                        <p>19세기 말, 존 앰브로즈 플레밍은 전자기학의 복잡한 수식들(맥스웰 방정식, 로런츠 힘의 벡터 외적 등)이 공학 현장에서 직관적으로 사용되기 어렵다는 점을
+                            간파했습니다. 그는 문과생부터 전문 엔지니어까지 누구나 자신의 손만을 사용하여 전기 발생의 방향을 즉각적으로 예측할 수 있는 이 'Mnemonic(기억 술사)'
+                            규칙을 체계화했습니다. 이는 인류가 자연의 에너지를 통제 가능한 형태로 전환하는 과정에서 거둔 위대한 직관의 승리입니다.</p>
+                    </div>
+
                     <div class="callout">
-                        <h4>핵심 메커니즘</h4>
-                        <p>자기장(Magnetic Field) 안에서 도체(Conductor)가 힘을 받아 움직일 때, 그 내부의 자유 전자들이 로런츠 힘(Lorentz Force)을 받아
-                            한쪽으로 쏠리게 되며 전류가 흐르게 됩니다. 이 '흐름의 방향'을 찾는 것이 바로 오른손 법칙의 목적입니다.</p>
+                        <h4>핵심 원리: 로런츠 힘 (Lorentz Force)</h4>
+                        <p>도체 내부에는 수많은 자유 전자가 존재합니다. 도체가 자기장을 가로질러 움직이면, 내부의 전자들은 자기장에 의한 물리적 힘인 '로런츠 힘'을 받게 됩니다. 이 힘에
+                            의해 전자가 한쪽 방향으로 강제 이동하게 되는데, 이것이 우리가 회로에서 확인하는 '전류'의 정체입니다. 플레밍의 법칙은 이 로런츠 힘의 작용 방향을 세 손가락의
+                            기하학적 구조로 완벽하게 치환해 보여줍니다.</p>
+                    </div>
+
+                    <div class="illustration-box reveal">
+                        <img src="img/fleming_thumbsup.png" alt="플레밍의 오른손 법칙 - 엄지척 상징">
+                        <p class="caption">그림 1: 운동의 방향을 상징하는 엄지의 직관적인 포즈</p>
                     </div>
                 </div>
             </div>
@@ -60,62 +73,112 @@
 
         <section id="explanation" class="content-section alternate">
             <div class="container">
-                <h2 class="reveal">2. 상세 설명 (The Anatomy of the Rule)</h2>
+                <h2 class="reveal">2. 상세 설명 (The F-B-I Geometry)</h2>
                 <div class="explanation-intro reveal">
-                    <p>오른손의 엄지, 검지, 중지를 서로 직각(90도)이 되도록 폅니다. 이때 각 손가락이 가리키는 방향은 전자기 현상의 세 가지 핵심 요소를 상징합니다.</p>
+                    <p>오른손의 세 손가락을 각각 90도 각도로 완벽하게 정렬하십시오. 이 3차원 축은 물리학에서 말하는 직교 좌표계(Cartesian Coordinate System)를 형성하며,
+                        전자기장의 상호작용을 수학적으로 완벽하게 모사합니다.</p>
                 </div>
-                <div class="explanation-grid">
-                    <div class="explanation-item reveal">
-                        <div class="icon">👍</div>
-                        <h3>엄지 (Thumb)</h3>
-                        <p class="term">도체의 운동 방향 (Motion / Force)</p>
-                        <p class="desc">도선이 자기장 내부에서 어느 물리적인 방향으로 움직이고 있는지를 나타냅니다. 예를 들어 터빈이 회전하거나 자석 사이를 지나가는 도선의 속도 벡터
-                            방향입니다.</p>
+
+                <div class="fbi-illustration reveal">
+                    <img src="img/fleming_fbi.png" alt="플레밍의 오른손 법칙 - F-B-I 구조">
+                    <p class="caption">그림 2: 힘(F), 자기장(B), 전류(I)의 90도 수직 관계 (FBI 모델)</p>
+                </div>
+
+                <div class="expansion-grid-large">
+                    <div class="glass-card reveal">
+                        <div class="finger-header">
+                            <span class="finger-emoji">👍</span>
+                            <h3>엄지 (F: Force / Motion)</h3>
+                        </div>
+                        <div class="content-body">
+                            <p><strong>역할: 외부에서 가해진 힘 또는 도체의 물리적 이동 방향</strong></p>
+                            <p>가장 강력한 손가락인 엄지는 우리가 투입하는 '에너지의 원천'을 의미합니다. 수력 발전소에서 떨어지는 물이 터빈을 돌리는 힘, 바람이 풍차를 돌리는 힘, 또는
+                                손으로 도선을 직접 끌어당기는 힘의 방향입니다. 물리학적으로는 '속도 벡터(v)'를 상징하며, 모든 에너지 전환의 시작점입니다.</p>
+                            <ul class="detail-list">
+                                <li><strong>직관적 이해:</strong> "내가 이 방향으로 힘을 주어 움직인다!"</li>
+                                <li><strong>매칭 포인트:</strong> 발전기 터빈의 회전 접선 방향</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="explanation-item reveal">
-                        <div class="icon">👉</div>
-                        <h3>검지 (Index Finger)</h3>
-                        <p class="term">자기장의 방향 (Magnetic Field)</p>
-                        <p class="desc">자석의 N극에서 시작하여 S극으로 향하는 자기력선의 방향입니다. 우리 눈에는 보이지 않지만, 이 법칙을 통해 가상의 선을 그려볼 수 있습니다.
-                        </p>
+
+                    <div class="glass-card reveal">
+                        <div class="finger-header">
+                            <span class="finger-emoji">👉</span>
+                            <h3>검지 (B: Magnetic Field)</h3>
+                        </div>
+                        <div class="content-body">
+                            <p><strong>역할: 자석이 만드는 자기장의 방향 (N → S)</strong></p>
+                            <p>검지는 무언가를 가리키는 손가락입니다. 여기서는 보이지 않는 자기장의 길을 가리킵니다. 영구 자석의 북극(N)에서 남극(S)으로 흐르는 가상의 선들을 상상해
+                                보십시오. 이 방향이 고정되어 있을 때, 도체의 움직임이 어떤 결과를 낳을지 결정하는 주된 배경(Field)이 됩니다.</p>
+                            <ul class="detail-list">
+                                <li><strong>직관적 이해:</strong> "자석의 기운이 이 방향으로 흐르고 있다!"</li>
+                                <li><strong>매칭 포인트:</strong> 자석 배열의 물리적 방향</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="explanation-item reveal">
-                        <div class="icon">🖕</div>
-                        <h3>중지 (Middle Finger)</h3>
-                        <p class="term">유도 전류의 방향 (Induced Current)</p>
-                        <p class="desc">엄지와 검지의 방향이 결정되었을 때, 도선 내부에서 실제로 전하가 이동하여 전류가 흐르게 되는 최종적인 방향입니다. 이것이 바로 우리가 '전기를
-                            만드는' 방향입니다.</p>
+
+                    <div class="glass-card reveal">
+                        <div class="finger-header">
+                            <span class="finger-emoji">🖕</span>
+                            <h3>중지 (I: Induced Current)</h3>
+                        </div>
+                        <div class="content-body">
+                            <p><strong>역할: 최종적으로 발생하는 유도 전류의 방향</strong></p>
+                            <p>중지는 앞의 두 조건(운동과 자기장)에 의해 탄생하는 '결과물'을 상징합니다. 엄지와 검지가 결정되면, 물리학의 우주적 법칙에 의해 중지의 방향으로 전기가 흐를
+                                수밖에 없습니다. 이것이 우리가 스마트폰을 충전하고 전등을 밝히는 데 사용하는 실제 에너지의 흐름입니다.</p>
+                            <ul class="detail-list">
+                                <li><strong>직관적 이해:</strong> "전기는 마침내 이 방향으로 흐르게 된다!"</li>
+                                <li><strong>매칭 포인트:</strong> 회로 연결 시 전류의 플러스(+) 방향</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="detailed-text reveal">
-                    <p>왜 하필 오른손일까요? 이는 물리학에서 사용하는 '오른나사의 법칙'과 '벡터의 외적(Cross Product)' 개념에서 기인합니다. 발전기(Generator)와 같이
-                        '동력을 전기로 바꾸는' 과정에서는 오른손을 사용하고, 반대로 전동기(Motor)와 같이 '전기를 동력으로 바꾸는' 과정에서는 왼손 법칙을 사용하도록 약속되어 있습니다.
-                    </p>
+
+                <div class="theoretical-summary reveal">
+                    <h3>FBI 암기법의 마법</h3>
+                    <p>미국의 연방수사국인 'FBI'를 떠올리십시오. <strong>Force(엄지) - B-field(검지) - Induced Current(중지)</strong> 순서대로
+                        배치됩니다. 이 강력한 암기법은 여러분이 시험장이나 실험실에서 방향을 헷갈리지 않게 도와주는 최고의 무기가 될 것입니다. 왼손 법칙(전동기)과 헷갈린다면?
+                        <strong>'오발(오른손-발전기)'</strong>이라는 키워드를 기억하십시오. 발전기는 오른쪽에서 시작합니다.</p>
                 </div>
             </div>
         </section>
 
         <section id="examples" class="content-section">
             <div class="container">
-                <h2 class="reveal">3. 사례 (Practical Case Studies)</h2>
-                <div class="example-grid">
-                    <div class="glass-card reveal">
-                        <div class="card-icon">⚡</div>
-                        <h3>대형 발전기의 터빈 회전</h3>
-                        <p>화력, 수력, 원자력 발전소의 핵심은 거대한 자석 사이에서 구리 코일을 회전시키는 것입니다. 이때 코일이 움직이는 방향(엄지)과 자석의 자기장(검지)이 만나면 코일을
-                            따라 엄청난 양의 전류(중지)가 흐르게 됩니다. 우리가 사용하는 모든 도시 전력의 시작점입니다.</p>
+                <h2 class="reveal">3. 사례 (Comprehensive Case Studies)</h2>
+                <div class="case-study reveal">
+                    <div class="case-header">
+                        <span class="case-icon">⚡</span>
+                        <h3>가장 거대한 스케일: 국가 전력망의 탄생</h3>
                     </div>
-                    <div class="glass-card reveal">
-                        <div class="card-icon">🚲</div>
-                        <h3>자전거 전조등 자가발전</h3>
-                        <p>바퀴에 맞닿아 돌아가는 작은 발전기 뭉치를 본 적 있나요? 바퀴의 회전력이 내부 자석을 돌리면, 자석 주변의 고정된 코일 입장에서 자기장이 변하게 됩니다. 이는 결국
-                            코일이 상대적으로 움직이는 것과 같아, 플레밍의 오른손 법칙에 따라 전조등을 켤 수 있는 전류가 발생합니다.</p>
+                    <div class="case-content">
+                        <p>우리가 가정에서 사용하는 전기는 어디서 올까요? 수력 발전소에서는 거대한 댐의 수압이 터빈의 날개를 밀어냅니다(엄지 방향). 이 터빈은 수 미터 크기의 거대한 자석들
+                            사이에 위치한 코일을 회전시킵니다(검지 방향 사이의 운동). 이 거대한 상호작용의 결과로 수백만 가구가 사용할 수 있는 엄청난 양의 전자들이 중지 방향으로 정렬되어
+                            송전선을 타고 흐르게 됩니다. 플레밍의 법칙은 단순한 이론이 아니라 국가의 심장을 뛰게 하는 원리입니다.</p>
                     </div>
-                    <div class="glass-card reveal">
-                        <div class="card-icon">🎤</div>
-                        <h3>다이나믹 마이크의 원리</h3>
-                        <p>우리가 소리를 내면 마이크 내부의 진동판이 떨립니다. 이 진동판에 붙은 얇은 코일이 자석 주변에서 앞뒤로 움직이게 되는데(엄지), 이때 발생하는 미세한 유도
-                            전류(중지)가 바로 우리의 목소리 신호가 됩니다. 소리 에너지를 전기 에너지로 바꾸는 마법 같은 과정입니다.</p>
+                </div>
+
+                <div class="case-study reveal">
+                    <div class="case-header">
+                        <span class="case-icon">🎤</span>
+                        <h3>미시적 예술의 세계: 다이나믹 마이크</h3>
+                    </div>
+                    <div class="case-content">
+                        <p>여러분이 노래를 부를 때 발생하는 공기의 파동이 마이크 내부의 아주 얇은 진동판을 흔듭니다. 이 진동판 뒤에는 머리카락보다 얇은 구리 코일이 붙어 있고, 아주 작은
+                            자석 주변을 앞뒤로 물리적으로 왕복하게 됩니다(엄지 방향의 운동). 이 아주 작은 움직임조차 자기장(검지)을 가로지르기 때문에, 코일을 따라 미세한 전기
+                            신호(중지)가 만들어집니다. 여러분의 목소리 에너지가 전기에너지로 완벽하게 복제되는 순간입니다.</p>
+                    </div>
+                </div>
+
+                <div class="case-study reveal">
+                    <div class="case-header">
+                        <span class="case-icon">🚉</span>
+                        <h3>미래 기술의 집약: 자기 부상 및 제동</h3>
+                    </div>
+                    <div class="case-content">
+                        <p>초고속 열차나 테슬라 같은 전기차의 '회생 제동'은 에너지 효율의 끝판왕입니다. 열차가 멈추려 할 때, 바퀴의 회전 관성력을 이용해 거꾸로 모터를 발전기로
+                            작동시킵니다. 바퀴가 도는 힘(엄지)과 자기장(검지)이 만나면 전기가 거꾸로 발생하여(중지) 배터리를 다시 충전합니다. 낭비되던 열에너지를 전기 에너지로 수확하는 이
+                            똑똑한 과정 역시 오른손 법칙의 충실한 이행입니다.</p>
                     </div>
                 </div>
             </div>
@@ -123,29 +186,38 @@
 
         <section id="applications" class="content-section alternate">
             <div class="container">
-                <h2 class="reveal">4. 실생활 연관 및 스킨 센서 실험</h2>
+                <h2 class="reveal">4. 실생활 연관 및 스킨 센서 실험 (Beyond General Physics)</h2>
 
-                <div class="app-detail reveal">
-                    <h3>전기 자동차의 '회생 제동' (Regenerative Braking)</h3>
-                    <p>테슬라나 아이오닉 같은 전기차는 브레이크를 밟지 않아도 속도가 줄어들며 배터리가 충전됩니다. 가속 페달에서 발을 떼는 순간, 바퀴의 회전력(엄지)이 모터를 발전기로 동작하게
-                        만들어 운동 에너지를 전기 에너지(중지)로 회수하는 것입니다. 이 효율적인 에너지 순환의 밑바탕에 플레밍의 오른손 법칙이 있습니다.</p>
+                <div class="glass-card reveal info-rich">
+                    <h3>비접촉 기술의 핵심: 자기적 결합 (Magnetic Coupling)</h3>
+                    <p>스마트폰 무선 충전이나 교통카드 태그 시 발생하는 현상을 생각해 봅시다. 충전 패드의 코일에서 발생한 변하는 자기장(검지 성분)이 스마트폰 내부의 수신 코일을 통과합니다.
+                        물리적으로 스마트폰을 흔들지 않아도, '자기장의 변화'는 물리적 운동과 동일한 효과를 냅니다. 결과적으로 스마트폰 내부 코일에는 배터리를 채울 수 있는 유도 전류(중지)가
+                        흐르게 됩니다. 플레밍의 법칙은 '비접촉' 세대를 여는 물리적 열쇠입니다.</p>
                 </div>
 
-                <div class="app-detail reveal">
-                    <h3>무선 충전 패드와 RFID 데이터 전송</h3>
-                    <p>스마트폰 무선 충전이나 교통카드 태그 시, 눈에 보이지 않는 자기장의 변화(검지)가 기기 내부의 코일을 통과하며 전류(중지)를 만들어냅니다. 선 없이도 전력을 공급하고
-                        데이터를 주고받을 수 있는 현대 기술의 기초입니다.</p>
-                </div>
-
-                <div class="glass-card reveal highlight section-link">
-                    <div class="link-label">Insight for Experiment</div>
-                    <h3>비접촉 스킨 센서 실험과 전자기학</h3>
-                    <p>비접촉 스킨 센서 실험(Skin Sensor Experiment)은 인체 표면에서 발생하는 미세한 전기적 신호나 주변 환경과의 상호작용을 감지하는 정밀한 과정입니다.</p>
-                    <p>도체가 자기장 속에서 움직일 때 전류가 발생하는 플레밍의 법칙을 이해하는 것은, 센서 주변의 전자기적 노이즈를 제어하고 인체의 움직임이 센서 신호에 어떤 영향을 주는지
-                        해석하는 데 결정적인 통찰을 제공합니다. 기초 물리 지식은 단순한 암기가 아니라, 실험 데이터 속에 숨겨진 논리를 찾아내는 강력한 도구가 됩니다.</p>
-                    <div class="link-action">
-                        <a href="https://github.com/heekeunlee/skin_sensor_experiment" class="btn-secondary">실험 저장소에서
-                            데이터 확인하기</a>
+                <div class="glass-card reveal highlight section-link-expanded">
+                    <div class="link-label">Scientific Insight for Researchers</div>
+                    <h3>비접촉 스킨 센서 실험과의 학문적 융합</h3>
+                    <p>비접촉 스킨 센서 실험(Skin Sensor Experiment)에서 우리는 인체의 미세한 신호를 전자기적으로 읽어냅니다. 우리 몸은 그 자체로 미세한 전도체이며, 주변에는
+                        수많은 가상의 자기력선들이 존재합니다.</p>
+                    <div class="integration-points">
+                        <div class="point">
+                            <strong>1. 신호 노이즈의 이해:</strong> 주변의 전동기나 전선에서 발생하는 자기장 변화가 우리 실험 기기에 어떤 '유도 전류(오른손 법칙)'를 만들어
+                            노이즈를 유발하는지 분석할 수 있습니다.
+                        </div>
+                        <div class="point">
+                            <strong>2. 비접촉 감도의 원리:</strong> 인체의 움직임(엄지)이 센서가 형성한 미세 자기장(검지)을 어떻게 교란하여 어떤 신호 변화(중지)를
+                            이끌어내는지 이해함으로써 센서의 감도를 비약적으로 높일 수 있습니다.
+                        </div>
+                        <div class="point">
+                            <strong>3. 학문적 응용:</strong> 여러분이 이 웹앱에서 학습한 기본 물리량의 방향성이 실제 실험실 대시보드의 데이터 그래프 출렁임과 어떻게 연결되는지
+                            깨닫는 순간, 여러분은 단순한 실험 자원봉사자가 아닌 독립적인 연구자로 거듭나게 됩니다.
+                        </div>
+                    </div>
+                    <div class="link-action-large">
+                        <p>여러분의 실험 데이터는 이 우주적 물리 법칙의 실시간 기록입니다.</p>
+                        <a href="https://github.com/heekeunlee/skin_sensor_experiment" class="btn-primary-large">스킨 센서
+                            실험 저장소에서 통찰 얻기</a>
                     </div>
                 </div>
             </div>
