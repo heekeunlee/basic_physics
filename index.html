@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기초 물리학 | 플레밍의 오른손 법칙</title>
+    <meta name="description" content="고3 및 대학생을 위한 기초 물리학 교육 웹앱 - 플레밍의 오른손 법칙">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <div class="logo">Basic Physics</div>
+            <ul>
+                <li><a href="#definition">정의</a></li>
+                <li><a href="#explanation">상세 설명</a></li>
+                <li><a href="#examples">실제 사례</a></li>
+                <li><a href="#applications">실생활 연관</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <span class="badge">기초 과학 시리즈 Vol. 1</span>
+                <h1>플레밍의<br>오른손 법칙</h1>
+                <p>전자기 유도의 원리를 한눈에 이해하는 직관적인 가이드</p>
+                <a href="#definition" class="btn-primary">학습 시작하기</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/fleming_hero.png" alt="플레밍의 오른손 법칙 시각화">
+            </div>
+        </section>
+
+        <section id="definition" class="content-section">
+            <div class="container">
+                <h2 class="reveal">1. 과학적 정의</h2>
+                <div class="glass-card reveal">
+                    <p>플레밍의 오른손 법칙(Fleming's right-hand rule)은 자기장 속에서 도선이 움직일 때 발생하는 <strong>유도 기전력(유도 전류)의 방향</strong>을 결정하는 법칙입니다.</p>
+                    <p>이 법칙은 영국의 전기공학자 존 앰브로즈 플레밍(John Ambrose Fleming)에 의해 고안되었습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="explanation" class="content-section alternate">
+            <div class="container">
+                <h2 class="reveal">2. 상세 설명 (세 손가락의 역할)</h2>
+                <div class="explanation-grid">
+                    <div class="explanation-item reveal">
+                        <div class="icon">🖐️</div>
+                        <h3>엄지 (Thumb)</h3>
+                        <p><strong>도체의 운동 방향</strong> (Force / Motion)</p>
+                        <p>도선이 어느 방향으로 움직이는지를 나타냅니다.</p>
+                    </div>
+                    <div class="explanation-item reveal">
+                        <div class="icon">👉</div>
+                        <h3>검지 (Index Finger)</h3>
+                        <p><strong>자기장의 방향</strong> (Magnetic Field)</p>
+                        <p>N극에서 S극으로 향하는 자기장의 방향입니다.</p>
+                    </div>
+                    <div class="explanation-item reveal">
+                        <div class="icon">🖕</div>
+                        <h3>중지 (Middle Finger)</h3>
+                        <p><strong>유도 전류의 방향</strong> (Induced Current)</p>
+                        <p>위의 두 조건에 의해 발생하는 전류의 흐름 방향입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="examples" class="content-section">
+            <div class="container">
+                <h2 class="reveal">3. 풍부한 사례</h2>
+                <div class="example-cards">
+                    <div class="glass-card reveal">
+                        <h3>발전기의 기본 원리</h3>
+                        <p>수력, 화력, 원자력 발전소의 거대한 터빈이 회전하면서 자기장 속에서 도선을 움직이게 하고, 이때 발생하는 전류가 바로 플레밍의 오른손 법칙을 따릅니다.</p>
+                    </div>
+                    <div class="glass-card reveal">
+                        <h3>자전거 전조등 발전기</h3>
+                        <p>바퀴가 회전할 때 작은 자석이 돌아가며 전기를 만들어 불을 밝히는 원리도 이 법칙으로 설명됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="applications" class="content-section alternate">
+            <div class="container">
+                <h2 class="reveal">4. 실생활과의 연관 및 스킨 센서 실험</h2>
+                <div class="glass-card reveal">
+                    <h3>전기 자전거 및 회생 제동</h3>
+                    <p>전기차나 전기 자전거가 멈출 때, 브레이크를 잡으면 모터가 발전기로 변하여 배터리를 충전하는 '회생 제동' 시스템이 이 법칙의 대표적인 응용입니다.</p>
+                </div>
+                <div class="glass-card reveal highlight">
+                    <h3>비접촉 스킨 센서 실험과의 연결</h3>
+                    <p>비접촉 스킨 센서 실험(Skin Sensor Experiment)에서 전자기적 신호를 감지하고 해석하는 과정은 미세한 전류의 흐름을 다룹니다. 도체의 움직임과 자기장의 상호작용을 이해하는 것은 센서의 감도와 정확도를 높이는 기초 체력이 됩니다.</p>
+                    <a href="https://github.com/heekeunlee/skin_sensor_experiment" class="btn-secondary">실험 저장소 방문하기</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Heekeun Lee. 기초 과학 교육 프로젝트.</p>
+            <div class="social-links">
+                <a href="https://github.com/heekeunlee/basic_physics">GitHub Project</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
